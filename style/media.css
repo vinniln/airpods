@@ -1,0 +1,111 @@
+@media(max-width:1200px) {
+    .main__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:992px) {
+    .header__content_text {
+        text-align: center;
+        font-size: 80px;
+    }
+    
+    .block1 {
+        gap: 15px;
+    }
+
+    .block2 {
+        gap: 15px;
+    }
+
+    .block3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .airpods {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .block1 img {
+        width: 350px;
+    }
+
+    .block2 img {
+        width: 350px;
+    }
+
+    .block3 img {
+        width: 300px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards1 {
+        flex-direction: column;
+    }
+
+    .block1 {
+        flex-direction: column;
+    }
+
+    .block1__text {
+        text-align: center;
+    }
+
+    .block2 {
+        flex-direction: column;
+    }
+
+    .block2__text {
+        order: 1;
+        text-align: center;
+    }
+
+    .block2 img {
+        order: 2;
+    }
+
+    .airpods img {
+        width: 250px;
+    }
+
+    .header__content_text {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .nav__content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+}
+
+@media(max-width:320px) {
+    .block1 img {
+        width: 250px;
+    }
+
+    .block2 img {
+        width: 250px;
+    }
+
+    .airpods img {
+        width: 200px;
+    }
+}
